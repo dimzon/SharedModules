@@ -58,12 +58,7 @@ dependencies {
     }
 
     // Both libraries should be present.
-    // Use specific version of Cronet instead of one hardcoded inside okhttp extension
-    // implementation 'com.google.android.gms:play-services-cronet:' + playServicesCronetVersion
-    implementation 'org.chromium.net:cronet-api:' + cronetApiVersion
     
-    // Cronet provider support (native, gms).
-    implementation 'org.chromium.net:cronet-embedded:' + cronetApiVersion
 
     implementation 'com.google.code.gson:gson:' + gsonVersion
 
@@ -83,3 +78,5 @@ dependencies {
 
     implementation 'dnsjava:dnsjava:' + dnsjavaVersion
 }
+
+
