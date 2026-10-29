@@ -120,7 +120,7 @@ public class PublicDnsResolver implements Dns {
     }
 
     public static Dns google() {
-        return new PublicDnsResolver("8.8.8.8", "8.8.4.4", 5);
+        return new PublicDnsResolver("77.88.8.8", "77.88.8.1", 5);
     }
 
     public static Dns cloudflare() {
